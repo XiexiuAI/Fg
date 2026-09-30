@@ -2,27 +2,14 @@
 
 #### 介绍
 
-基于 Wails v2（Go + React）的一体化安全测试辅助桌面工具，同时内置 AI Coding Agent 工作台。围绕「信息收集 → 资产测绘 → 漏洞发现与验证 → 利用 → 取证溯源」的测试链路，集成渗透测试、信息收集、资产测绘、漏洞库与 PoC 管理、端口/内网扫描、WebShell 检测（文件扫描 + 流量分析）、PCAP 深度分析、数据库助手、应急响应取证、C2 管理、情报舆情监控、AK 管理、接码平台、HTTP 数据重放等 40+ 实战模块，多数据源可视化聚合，自动化重复性安全测试工作。
+基于 Wails v2（Go + React）的一体化安全测试辅助桌面工具，同时内置 AI Coding Agent 工作台。集成信息收集、漏洞专区、工具专区、工具专区、情报专区、APP小程序、资产管理、webshell管理、C2管理、AK管理、应急日志分析等 50+ 实战模块，多数据源可视化聚合，自动化重复性安全测试工作。
 
-- **开箱即用**：单安装包分发，无需配置运行环境，Windows 10/11 直接运行
+- **开箱即用**：单安装包分发，无需配置运行环境，Windows 10/11 直接运行，目前仅支持windows。
 - **本地优先**：扫描引擎、漏洞库、指纹库全部本地运行；API Key 通过 Windows DPAPI（当前用户域）加密存储于本机
-- **离线激活**：内置激活向导，基于机器码签发许可证，支持离线激活与校验
 - **AI 加持**：Coding Agent 支持 Diff 审批、经验库沉淀、MCP/Skills 扩展、沙盒预览与 normal/plan/yolo 三档运行模式
 
-#### 软件架构
+<img width="2559" height="1334" alt="image" src="https://github.com/user-attachments/assets/b6740971-a6dc-450d-b17c-f3cbaf150f59" />
 
-**技术栈**：Go 1.25（Wails v2 桌面框架）+ React 18 + TypeScript + Vite，前端由系统 WebView2 渲染，无浏览器依赖。
-
-```
-├── desktop/                    # Wails 应用壳（app.go + 各模块 *_app.go 绑定层）
-│   ├── frontend/
-│   │   └── src/components/security/  # 50+ 安全功能组件（二级懒加载，首屏轻量）
-│   ├── emergency_collectors/   # 应急响应采集器（Windows/Linux/Python）
-│   └── robot/                  # IM 机器人网关（Telegram/Discord/Slack/飞书/钉钉/QQ/企业微信 等 8 平台）
-├── internal/                   # Go 核心内核（Agent、扫描引擎、流量/协议解析、应急检测）
-├── data/                       # 离线数据（漏洞库、检测规则、内置字典）
-└── cmd/                        # 独立入口（arcdesk CLI：chat/run/serve；licensesigner 许可证签发）
-```
 
 **功能模块一览**
 
@@ -38,6 +25,10 @@
 | 情报舆情 | 漏洞情报、威胁情报、微信安全情报、暗网监测、舆情监控、公众号扫描 |
 | AI 工作台 | Coding Agent（Diff 审批/经验库/MCP/Skills/沙盒预览）、知识库、AI 代码审查、IM 机器人 |
 | 实用工具 | 编解码、加解密、网络拓扑设计、接码平台、网盘搜索、隐私检查 |
+
+**功能视频展示**
+
+
 
 #### 安装教程
 
@@ -57,6 +48,3 @@
 
 本工具仅面向**已获授权**的安全测试、应急响应与安全研究场景。请遵守《网络安全法》及相关法律法规，未经授权对目标系统进行测试属违法行为，由此产生的一切后果由使用者自行承担。
 
-#### 开源许可
-
-本项目基于 [MIT License](./LICENSE) 开源。
