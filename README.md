@@ -28,6 +28,17 @@
 
 **功能视频展示**
 
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/5f227f55-0515-46c3-8113-1a74f0863cda" />
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/5da3f268-a343-4903-86a8-1bfc82940d8a" />
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/f85ca0c0-1460-48a7-8f3f-37d681ae9718" />
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/b313b348-553d-49ac-9f24-10384ce9ee21" />
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/08bbdc9f-613a-4717-b419-b3a61c87cd93" />
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/39eab19a-10bb-4f1b-8542-749b6c784ff0" />
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/46e99f79-cd1c-4fbe-80d8-ccdceed12d79" />
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/36db94e5-284c-428b-9114-775dde411850" />
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/c57ec0a3-de78-4d9a-b586-a45a3f055d26" />
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/9f2b144c-8092-4cf1-8344-f8b742478e9e" />
+<img width="2559" height="1368" alt="image" src="https://github.com/user-attachments/assets/2162fed3-9e37-4dea-a9cb-fe1df09b8ca8" />
 
 
 #### 安装教程
@@ -36,6 +47,10 @@
 2. 从 Releases 下载最新安装包（NSIS 安装器），双击运行，按向导完成安装
 3. 首次启动进入激活向导：将机器码发送给供应商获取许可证，粘贴许可证文本块完成激活（支持离线激活）
 4. 在「设置 → 模型服务」配置 AI 提供商与 API Key；在「设置 → 数据源 / 资产管理设置」按需填写各数据源 API Key/Cookie，保存即生效
+
+#### 需求联系
+<img width="801" height="513" alt="image" src="https://github.com/user-attachments/assets/f841912d-1799-462f-88e3-45102127d57c" />
+
 
 #### 使用说明
 
